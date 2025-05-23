@@ -1,6 +1,6 @@
-# curl-hunt
+# curl_hunter
 
-`curl-hunt` is a lightweight, bash-based tool designed to perform basic HTTP threat hunting, reconnaissance, and troubleshooting using `curl`. It works for both individual IP addresses and CIDR ranges.
+`curl_hunter` is a lightweight, bash-based tool designed to perform basic HTTP threat hunting, reconnaissance, and troubleshooting using `curl`. It works for both individual IP addresses and CIDR ranges.
 
 ## 🔍 Features
 
@@ -28,13 +28,13 @@
 ### Build Docker Image
 
 ```bash
-docker build -t curl-hunt .
+docker build -t curl_hunt .
 ```
 
 ### Run Scan via Docker
 
 ```bash
-docker run --rm -v $(pwd)/output:/output curl-hunt 192.168.1.1
+docker run --rm -v $(pwd)/output:/output curl_hunt 192.168.1.1
 ```
 
 ## 🧠 HTTP Status Code Reference
